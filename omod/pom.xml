@@ -50,16 +50,6 @@
 	    	<artifactId>openmrs-web</artifactId>
 	    	<version>${openMRSVersion}</version>
 	    	<scope>provided</scope>
-			<exclusions>
-				<exclusion>
-					<groupId>javax.servlet</groupId>
-					<artifactId>servlet-api</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>javax.servlet</groupId>
-					<artifactId>jsp-api</artifactId>
-				</exclusion>
-			</exclusions>
 	    	<type>jar</type>
 	    </dependency>
 
@@ -77,16 +67,6 @@
 			<version>${openMRSVersion}</version>
 			<type>test-jar</type>
 			<scope>test</scope>
-			<exclusions>
-				<exclusion>
-					<groupId>javax.servlet</groupId>
-					<artifactId>servlet-api</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>javax.servlet</groupId>
-					<artifactId>jsp-api</artifactId>
-				</exclusion>
-			</exclusions>
 		</dependency>
 
 		<dependency>
